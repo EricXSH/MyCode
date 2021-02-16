@@ -1,5 +1,1 @@
-Hello there, this is my code.
-
-I do not use the string parser provided in assignment 0.
-
-I use for loop to complete the string parser and execvp to execute the command.
+Simple Shell From Boston University EC440
