@@ -1,0 +1,5 @@
+This is the code for scheduling pthread by round-robin which includes pthread_create(), schedule(), pthread_exit() and pthread_self().
+
+
+Reference:
+https://sites.cs.ucsb.edu/~manish/discussion/week4.pdf
