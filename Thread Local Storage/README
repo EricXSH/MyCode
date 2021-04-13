@@ -1,0 +1,5 @@
+This is a project about Thread Local Storage.
+
+The TLS, page structures are got from lecture powerpoint.
+
+The read and write operations get help from https://sites.cs.ucsb.edu/~manish/discussion/week7.pdf;
