@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 28 16:17:32 2020
+# Process ID: 23171
+# Current directory: /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files
+# Command line: vivado
+# Log file: /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/vivado.log
+# Journal file: /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Prelab7 /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/Prelab7 -part xc7vx485tffg1157-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/ad/eng/support/software/linux/opt/xilinx/Vivado/2019.1/Vivado/2019.1/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 6655.070 ; gain = 49.277 ; free physical = 11521 ; free virtual = 24316
+add_files -norecurse {/ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/mux.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/shift_left_2.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/sign_extend.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/InstrMem.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/ALU_control.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/Adder.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/Memory.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/cpu.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/PC.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/nbit_register_file.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/ALU.v /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/control.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /ad/eng/users/e/r/ericxing/Desktop/ec413/lab7files/tb_cpu.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 28 16:26:57 2020...
