@@ -1,0 +1,5 @@
+This is the project of the control of file system.
+
+The MapSet and MapClear functions implement external resourse: https://www.programiz.com/c-programming/bitwise-operators
+
+It is so hard that I do not finished fs_write and fs_truncate.
